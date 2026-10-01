@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SK_TRAINING_DB
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
+      - name: payments
